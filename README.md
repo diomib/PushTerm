@@ -1,16 +1,17 @@
-# 🖨️ PushTerm
+# PushTerm
 
-**PushTerm** is a retro-style terminal tool that lets you auto-modify G-code for the Bambu Lab X1 Carbon printer. Its special feature? It inserts custom push-off logic into the G-code so the printer’s toolhead can physically eject a finished print from the build plate after a cooldown delay — all without needing extra hardware like a Raspberry Pi.
+PushTerm is a Python-based command-line tool designed to streamline your terminal workflows. It provides a clean, simple terminal interface and lets you launch customizable commands, scripts, or tools with ease.
 
-# PushTerm more
+## 🚀 Features
 
-PushTerm is a terminal-based tool built in Python that lets you [brief description of what PushTerm does — e.g., manage CLI tasks, launch tools, etc.].
+- Lightweight and fast
+- Customizable launcher interface
+- Built with Python – easy to extend
+- Perfect for personal or school projects
 
----
+## 📦 Installation
 
-## Installation
-
-You can now install PushTerm directly from PyPI:
+PushTerm is available on PyPI. You can install it using pip:
 
 ```bash
 pip install pushterm
