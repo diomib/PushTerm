@@ -19,6 +19,7 @@ PushTerm/
 ├── gcode_modifier.py    # Inserts push-off logic into G-code
 ├── MyPrints/            # Where you put your original G-code files
 │   └── Ploter.gcode     # (example file)
+│   └── Ploter_Modify.gcode # (example file)
 └── README.md            # This file
 ```
 
