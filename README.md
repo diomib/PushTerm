@@ -16,7 +16,7 @@ Special thanks to **[Small Pot](https://makerworld.com/en/models/1021588-small-p
 PushTerm/
 ├── launcher.py          # Opens the terminal UI in a separate window
 ├── terminal_ui.py       # Main terminal interface logic
-├── gcode_modifier.py    # Inserts push-off logic into G-code
+├── list_files.py        # This is a debug log  to see if it can find the files 
 ├── MyPrints/            # Where you put your original G-code files
 │   └── Ploter.gcode     # (example file)
 │   └── Ploter_Modify.gcode # (example file)
