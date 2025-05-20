@@ -1,6 +1,6 @@
 # PushTerm
 
-PushTerm is a Python-based command-line tool designed to streamline your 3D printing experience using your terminal. It provides a clean, simple terminal interface and lets you launch customizable commands, scripts, or tools with ease. This command is a tool for auto print farms; most auto print farms take too long, and sometimes don't work. The PushTerm allows you to customize speed and is more efficient for producing quality prints. 
+PushTerm is a Python-based command-line tool designed to streamline your 3D printing experience using your terminal. It provides a clean, simple terminal interface and lets you launch customizable commands, scripts, or tools with ease. This command is a tool for auto print farms; most auto print farms take too long, and sometimes don't work. The PushTerm allows you to customize speed and is more efficient for producing quality prints.
 
 ## 🚀 Features
 
